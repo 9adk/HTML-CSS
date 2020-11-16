@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Anime Characters</title>
+        <style>
+        body{
+            padding: 2em;
+        }
+        .headerContainer{
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            background: tomato;
+            font-weight: bold;
+            padding: 20px;
+        }
+        .footerContainer{
+            display: flex;
+            flex-flow: column wrap;
+            align-content: center;
+            background: lightgreen;
+            font-weight: bold;
+            padding: 10px;
+        }
+        .cards {
+            display: flex;
+            flex-wrap: column wrap;
+            align-items: center;
+        }
+        .card {
+            flex: 0 0 340px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
+        } 
+        .card img {
+            max-width: 100%;
+        }
+        .card .text {
+            padding: 0 20px 20px;
+        }
+        .card .text > button {
+            background: gray;
+            border: 0;
+            color: white;
+            padding: 10px;
+            width: 100%;
+            }
+        </style>
+    </head>
+    <body>
+        <header class="headerContainer">Anime Characters</header>
+        <div class="cards">
+            <article class="card">
+                <img src="../assets/vegeta.png" alt="Sample photo">
+                <div class="text">
+                <h3>Saiyan Prince</h3>
+                <p>Vegeta is the prince of the fallen Saiyan race. He is the eldest son of King Vegeta, the older brother of Tarble, 
+                    the husband of Bulma, the father of Trunks and Bulla, and the ancestor of Vegeta Jr.</p>
+                <button>click here</button>
+                </div>
+            </article>
+            <article class="card">
+                <img src="../assets/itachi.jpg" alt="Sample photo">
+                <div class="text">
+                <h3>Itachi Uchiha</h3>
+                <p>Itachi is the older brother of Sasuke Uchiha and is responsible for killing all the members of their clan, sparing only his younger brother Sasuke.</p>
+                <button>click here</button>
+                </div>
+            </article>
+            <article class="card">
+                <img src="../assets/kira.jpg" alt="Sample photo">
+                <div class="text">
+                <h3>Light Yagami</h3>
+                <p>Light Yagami is the main protagonist of the Death Note series. After discovering the Death Note, he decides to use it to rid the world of criminals. 
+                    His killings are eventually labelled by people of Japan as the work of "Kira." </p>
+                <button>click here</button>
+                </div>
+            </article>
+            <article class="card">
+                <img src="../assets/L.jpg" alt="Sample photo">
+                <div class="text">
+                <h3>L</h3>
+                <p>L (エル, Eru) is a world-renowned detective who takes on the challenge of catching the mass murderer known as Kira. </p>
+                <button>click here</button>
+                </div>
+            </article>
+        </div>
+        <footer class="footerContainer">Footer</footer>
+    </body>
+</html>
